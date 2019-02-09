@@ -14,3 +14,7 @@ function newpupil(firstname,lastname,clas,mathsgroup,literacygroup){
 var josh=new newpupil('josh','smith','6EA','6RB','6EA');
 
 console.log(josh);
+
+var elizabeth=new newpupil('elizabeth','chicheke','6EA','6RB','6EA');
+
+console.log(elizabeth);
