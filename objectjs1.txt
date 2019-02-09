@@ -2,3 +2,15 @@ var obj1={};
 obj1.name="apple";
 obj1.colour="red";
 console.log(obj1);
+
+function newpupil(firstname,lastname,clas,mathsgroup,literacygroup){
+  this.firstname=firstname;
+  this.lastname=lastname;
+  this.clas=clas;
+  this.mathsgroup=mathsgroup;
+  this.literacygroup=literacygroup;
+};
+
+var josh=new newpupil('josh','smith','6EA','6RB','6EA');
+
+console.log(josh);
